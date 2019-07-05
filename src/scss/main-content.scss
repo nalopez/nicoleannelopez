@@ -1,0 +1,41 @@
+.main-content {
+    background-color: rgba(1, 119, 181, 0.9);
+    border: 1px solid #0177b5;
+    float: right;
+    min-height: 400px;
+    padding: 10px;
+    color: white;
+    width: 70%;
+
+    h3 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    h5 {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .tech-data {
+        min-height: 120px;
+        float: left;
+        margin: 5px;
+        width: 31%;
+
+        .tech-group {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        width: 100%;
+
+        .tech-data {
+            width: 80%;
+            min-height: 50px;
+        }
+    }    
+}

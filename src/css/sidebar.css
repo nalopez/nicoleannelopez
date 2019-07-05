@@ -1,0 +1,64 @@
+body {
+  background: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/branco-background-1.png") no-repeat;
+  background-size: cover;
+}
+body div, body span {
+  word-wrap: break-word;
+}
+body .content {
+  min-height: 400px;
+  margin: 10px auto;
+  width: 70%;
+}
+body .content .sidebar {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid white;
+  float: left;
+  min-height: 400px;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+}
+body .content .sidebar .image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+body .content .sidebar .image-cropper .sidebar-photo {
+  display: inline;
+  height: 100%;
+  margin-left: 5%;
+  width: auto;
+}
+body .content .sidebar .social-link {
+  margin-top: 10px;
+}
+body .content .sidebar .social-link .social-link-name {
+  font-weight: bold;
+}
+body .content .sidebar .social-button-group {
+  margin: 20px auto;
+  width: 70%;
+}
+body .content .sidebar .social-button-group .social-button {
+  height: 30px;
+  margin: 5px;
+}
+body .content .sidebar .social-button-group .social-button:last-child {
+  margin-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  body .content .sidebar {
+    width: 100%;
+  }
+  body .content .sidebar .social-button-group {
+    margin: 20px auto;
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=sidebar.css.map */

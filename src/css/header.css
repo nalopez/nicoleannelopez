@@ -1,0 +1,26 @@
+.header {
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px auto;
+  width: 70%;
+  vertical-align: middle;
+}
+.header .header-link-group {
+  list-style-type: none;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.header .header-link-group .header-link {
+  display: inline;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.header .header-link-group .header-link a {
+  color: white;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=header.css.map */

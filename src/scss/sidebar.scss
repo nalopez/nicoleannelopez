@@ -1,0 +1,76 @@
+body {
+    background: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/branco-background-1.png") no-repeat;
+    background-size: cover;
+
+    div, span {
+        word-wrap: break-word;
+    }
+
+    .content {
+        min-height: 400px;
+        margin: 10px auto;
+        width: 70%;
+
+        .sidebar {
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 1px solid white;
+            float: left;
+            min-height: 400px;
+            padding: 10px;
+            text-align: center;
+            width: 30%;
+
+            .image-cropper {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 50%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+
+                .sidebar-photo {
+                    display: inline;
+                    height: 100%;
+                    margin-left: 5%;
+                    width: auto;
+                }
+            }
+
+            .social-link {
+                margin-top: 10px;
+
+                .social-link-name {
+                    font-weight: bold;
+                }
+            }
+
+            .social-button-group {
+                margin: 20px auto;
+                width: 70%;
+
+                .social-button {
+                    height: 30px;
+                    margin: 5px;
+
+                    &:last-child {
+                        margin-right: 0
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+
+                .social-button-group {
+                    margin: 20px auto;
+                    width: 50%;
+
+                    
+                }
+            }
+        }
+    }
+}
