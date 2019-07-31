@@ -1,6 +1,6 @@
 import React from 'react';
 
-import photo from '../photo.png';
+import photo from '../images/photo.png';
 import facebookLogo from '../icons/facebookLogo.png';
 import twitterLogo from '../icons/twitterLogo.png';
 import gmailLogo from '../icons/gmailLogo.png';

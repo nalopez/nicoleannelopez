@@ -17,14 +17,31 @@
     }
 
     .tech-data {
-        min-height: 120px;
+        min-height: 250px;
         float: left;
         margin: 5px;
-        width: 31%;
+        width: 48%;
 
         .tech-group {
             font-weight: bold;
             text-decoration: underline;
+            margin-bottom: 10px;
+        }
+
+        .tech-group-list {
+            list-style-type: none;
+            padding-left: 0;
+            text-align: center;
+
+            .tech-listing {
+                display: inline;
+                padding: 5px;
+
+                .tech-image {
+                    max-height: 100px;
+                    max-width: 100px;
+                }
+            }
         }
     }
 }
@@ -34,8 +51,24 @@
         width: 100%;
 
         .tech-data {
-            width: 80%;
-            min-height: 50px;
+            width: 100%;
+
+            .tech-group {
+                text-align: center;
+            }
+
+            .tech-group-list {
+                margin-bottom: 20px;
+
+                .tech-listing {
+                    display: block;
+                    width: 100%;
+
+                    .tech-image {
+                        max-width: 200px;
+                    }
+                }
+            }
         }
     }    
 }
