@@ -1,25 +1,6 @@
 import React from 'react';
 import TechData from './TechData';
 
-import sfLogo from '../images/sfLogo.png';
-import laravelLogo from '../images/laravelLogo.png';
-import ciLogo from '../images/ciLogo.png';
-import reactLogo from '../images/reactLogo.png';
-import mysqlLogo from '../images/mysqlLogo.png';
-import redisLogo from '../images/redisLogo.png';
-import memcachedLogo from '../images/memcachedLogo.png';
-import githubLogo from '../images/githubLogo.png';
-import gitlabLogo from '../images/gitlabLogo.png';
-import bitbucketLogo from '../images/bitbucketLogo.png';
-import svnLogo from '../images/svnLogo.png';
-import cssLogo from '../images/cssLogo.png';
-import sassLogo from '../images/sassLogo.png';
-import lessLogo from '../images/lessLogo.png';
-import jsLogo from '../images/jsLogo.png';
-import jqueryLogo from '../images/jqueryLogo.png';
-import dockerLogo from '../images/dockerLogo.png';
-import vagrantLogo from '../images/vagrantLogo.png';
-
 function MainContent() {
   return (
     <div className="main-content">
@@ -30,34 +11,34 @@ function MainContent() {
         </h5>
 
         <TechData techGroup="Development Frameworks/Libraries" techItems={[
-            {techName: 'Symfony', techImage: sfLogo},
-            {techName: 'Laravel', techImage: laravelLogo},
-            {techName: 'CodeIgniter', techImage: ciLogo},
-            {techName: 'ReactJS', techImage: reactLogo}
+            {techName: 'Symfony', spriteClass: 'sfLogo'},
+            {techName: 'Laravel', spriteClass: 'laravelLogo'},
+            {techName: 'CodeIgniter', spriteClass: 'ciLogo'},
+            {techName: 'ReactJS', spriteClass: 'reactLogo'}
         ]} />
         <TechData techGroup="Database Management and Caching" techItems={[
-            {techName: 'MySQL', techImage: mysqlLogo},
-            {techName: 'Redis', techImage: redisLogo},
-            {techName: 'Memcached', techImage: memcachedLogo}
+            {techName: 'MySQL', spriteClass: 'mysqlLogo'},
+            {techName: 'Redis', spriteClass: 'redisLogo'},
+            {techName: 'Memcached', spriteClass: 'memcachedLogo'}
         ]} />
         <TechData techGroup="Version Control" techItems={[
-            {techName: 'GitHub', techImage: githubLogo},
-            {techName: 'Gitlab', techImage: gitlabLogo},
-            {techName: 'BitBucket', techImage: bitbucketLogo},
-            {techName: 'SVN', techImage: svnLogo}
+            {techName: 'GitHub', spriteClass: 'githubLogo'},
+            {techName: 'Gitlab', spriteClass: 'gitlabLogo'},
+            {techName: 'BitBucket', spriteClass: 'bitbucketLogo'},
+            {techName: 'SVN', spriteClass: 'svnLogo'}
         ]} />
         <TechData techGroup="Styling" techItems={[
-            {techName: 'CSS', techImage: cssLogo},
-            {techName: 'SASS', techImage: sassLogo},
-            {techName: 'LESS', techImage: lessLogo}
+            {techName: 'CSS', spriteClass: 'cssLogo'},
+            {techName: 'SASS', spriteClass: 'sassLogo'},
+            {techName: 'LESS', spriteClass: 'lessLogo'}
         ]} />
         <TechData techGroup="Scripting" techItems={[
-            {techName: 'Javacript', techImage: jsLogo},
-            {techName: 'jQuery', techImage: jqueryLogo}
+            {techName: 'Javacript', spriteClass: 'jsLogo'},
+            {techName: 'jQuery', spriteClass: 'jqueryLogo'}
         ]} />
-        <TechData techGroup="Development Environments" techItems={['Docker', 'Vagrant']} techItems={[
-            {techName: 'Docker', techImage: dockerLogo},
-            {techName: 'Vagrant', techImage: vagrantLogo}
+        <TechData techGroup="Development Environments" techItems={[
+            {techName: 'Docker', spriteClass: 'dockerLogo'},
+            {techName: 'Vagrant', spriteClass: 'vagrantLogo'}
         ]} />
     </div>
   );

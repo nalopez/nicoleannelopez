@@ -1,14 +1,18 @@
 import React from 'react';
 
+import techSprite from '../images/sprite_tech.png';
+
 function TechData(props) {
   return (
       <div className="tech-data">
             <div className="tech-group"> {props.techGroup} </div>
-            <ul className="tech-group-list">
+            <div className="tech-group-list">
             {props.techItems.map((value, index) => {
-                return <li className="tech-listing" key={index}><img className="tech-image" src={value.techImage} alt={value.techName} /></li>
+                return <div className="tech-wrapper">
+                    <div className={"tech-image " + value.spriteClass} alt={value.techName}></div>
+                </div>
             })}
-            </ul>
+            </div>
       </div>
   );
 }
