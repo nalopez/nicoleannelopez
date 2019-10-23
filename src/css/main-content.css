@@ -37,94 +37,114 @@
   margin-right: 5px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .sfLogo {
-  width: 143px;
-  height: 143px;
-  background: url("../images/sprite_tech.png") -110px -50px;
+  width: 130px;
+  height: 125px;
+  background: url("../images/sprite_tech2.png") -100px -50px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .laravelLogo {
-  width: 190px;
-  height: 130px;
-  background: url("../images/sprite_tech.png") -520px -200px;
+  width: 170px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -470px -180px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .ciLogo {
-  width: 115px;
+  width: 100px;
   height: 130px;
-  background: url("../images/sprite_tech.png") 0 -50px;
+  background: url("../images/sprite_tech2.png") 0 -50px;
+}
+.main-content .tech-data .tech-group-list .tech-wrapper .nodejsLogo {
+  width: 210px;
+  height: 130px;
+  background: url("../images/sprite_tech2.png") -400px -1920px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .reactLogo {
-  width: 140px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -5px -1710px;
+  width: 130px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -5px -1800px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .mysqlLogo {
   width: 180px;
   height: 140px;
-  background: url("../images/sprite_tech.png") -140px -1560px;
+  background: url("../images/sprite_tech2.png") -125px -1660px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .redisLogo {
   width: 150px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -350px -1560px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -320px -1670px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .memcachedLogo {
-  width: 150px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -150px -1710px;
+  width: 120px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -130px -1800px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .githubLogo {
-  width: 140px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -300px -1710px;
+  width: 120px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -270px -1795px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .gitlabLogo {
   width: 140px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -1430px -50px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -1290px -40px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .bitbucketLogo {
-  width: 140px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -5px -1560px;
+  width: 120px;
+  height: 130px;
+  background: url("../images/sprite_tech2.png") -5px -1660px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .svnLogo {
-  width: 220px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -1200px -50px;
+  width: 200px;
+  height: 130px;
+  background: url("../images/sprite_tech2.png") -1090px -50px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .cssLogo {
   width: 100px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") -1090px -190px;
+  height: 130px;
+  background: url("../images/sprite_tech2.png") -990px -170px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .sassLogo {
-  width: 150px;
-  height: 140px;
-  background: url("../images/sprite_tech.png") 0 -190px;
+  width: 120px;
+  height: 100px;
+  background: url("../images/sprite_tech2.png") 0 -180px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .lessLogo {
-  width: 130px;
-  height: 130px;
-  background: url("../images/sprite_tech.png") -150px -190px;
+  width: 120px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -130px -175px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .jsLogo {
-  width: 120px;
+  width: 100px;
   height: 130px;
-  background: url("../images/sprite_tech.png") -1200px -190px;
+  background: url("../images/sprite_tech2.png") -1100px -170px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .jqueryLogo {
   width: 100px;
-  height: 130px;
-  background: url("../images/sprite_tech.png") -460px -1710px;
+  height: 110px;
+  background: url("../images/sprite_tech2.png") -420px -1800px;
+}
+.main-content .tech-data .tech-group-list .tech-wrapper .npmLogo {
+  width: 250px;
+  height: 110px;
+  background: url("../images/sprite_tech2.png") 0 -1930px;
+}
+.main-content .tech-data .tech-group-list .tech-wrapper .yarnLogo {
+  width: 145px;
+  height: 145px;
+  background: url("../images/sprite_tech2.png") -250px -1920px;
+}
+.main-content .tech-data .tech-group-list .tech-wrapper .gruntLogo {
+  width: 100px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -530px -1800px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .dockerLogo {
-  width: 170px;
-  height: 150px;
-  background: url("../images/sprite_tech.png") -520px -1560px;
+  width: 150px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -470px -1670px;
 }
 .main-content .tech-data .tech-group-list .tech-wrapper .vagrantLogo {
-  width: 130px;
-  height: 130px;
-  background: url("../images/sprite_tech.png") -250px -50px;
+  width: 120px;
+  height: 120px;
+  background: url("../images/sprite_tech2.png") -230px -50px;
 }
 
 @media only screen and (max-width: 768px) {

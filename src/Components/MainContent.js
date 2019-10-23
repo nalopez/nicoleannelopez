@@ -14,6 +14,7 @@ function MainContent() {
             {techName: 'Symfony', spriteClass: 'sfLogo'},
             {techName: 'Laravel', spriteClass: 'laravelLogo'},
             {techName: 'CodeIgniter', spriteClass: 'ciLogo'},
+            {techName: 'NodeJS', spriteClass: 'nodejsLogo'},
             {techName: 'ReactJS', spriteClass: 'reactLogo'}
         ]} />
         <TechData techGroup="Database Management and Caching" techItems={[
@@ -33,8 +34,11 @@ function MainContent() {
             {techName: 'LESS', spriteClass: 'lessLogo'}
         ]} />
         <TechData techGroup="Scripting" techItems={[
-            {techName: 'Javacript', spriteClass: 'jsLogo'},
-            {techName: 'jQuery', spriteClass: 'jqueryLogo'}
+            {techName: 'Javascript', spriteClass: 'jsLogo'},
+            {techName: 'jQuery', spriteClass: 'jqueryLogo'},
+            {techName: 'NPM', spriteClass: 'npmLogo'},
+            {techName: 'Yarn', spriteClass: 'yarnLogo'},
+            {techName: 'Grunt', spriteClass: 'gruntLogo'},
         ]} />
         <TechData techGroup="Development Environments" techItems={[
             {techName: 'Docker', spriteClass: 'dockerLogo'},
